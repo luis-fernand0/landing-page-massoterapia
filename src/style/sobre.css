@@ -1,0 +1,50 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 110px;
+    height: 100vh;
+}
+
+.sobre-titulo {
+    color: #BC9084;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.mission-vision-valores {
+    margin-top: 100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sobre-descricao {
+    max-width: 497px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.descricao-titulo {
+    color: #BC9084;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.descricao-mvv {
+    color: #BC9084;
+    font-size: 18px;
+    font-weight: 300;
+
+    margin-top: 25px;
+}
+
+.valores {
+    margin-top: 100px;
+}

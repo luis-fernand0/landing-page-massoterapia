@@ -1,0 +1,188 @@
+.titulos-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 140px;
+    height: 100%;
+}
+
+.titulo-servicos {
+    text-align: center;
+    color: #BC9084;
+
+    margin-bottom: 100px;
+}
+
+.titulo-servico-1 {
+    margin-bottom: 20px;
+
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.titulo-servico-2 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.logo-titulo-descricao {
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+}
+
+.logo-moke-spa-bg-div {
+    position: absolute;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.logo-moke-spa-bg {
+    width: 199px;
+    
+    opacity: 10%;    
+}
+
+.cards {    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    max-width: 1200px;  
+}
+
+.cards-gradiente {
+    height: 757px;
+    
+    overflow: hidden;   
+}
+
+.cards-gradiente::before {
+    content: '';
+
+    background: linear-gradient(transparent, rgb(255, 255, 255));
+    
+    position: absolute;
+    
+    border-radius: 20px;
+
+    width: 100%;
+    height: 758px;
+}
+
+.card {
+    background-color: #B47766;
+
+    width: 332px;
+    height: 309px;
+    
+    border-radius: 50px;
+
+    padding: 30px 28px 35px;
+    margin-bottom:40px;
+}
+
+.titulo-descricao-massagem {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FCFBFB;
+}
+
+.titulo-massagem {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao-servico {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.btns-agendar-expand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-expand-servico {
+    background-color: #B47766;
+
+    border: none;
+    border-radius: 50px;
+
+    width: 150px;
+    height: 60px;
+
+    color: #FCFBFB;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 100px 0 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: pular 1s infinite alternate ease-in-out;
+    transition: all 1s;
+
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 25%);
+}
+
+.btn-agendar-servico {
+    background-color: #B47766;
+
+    border: none;
+    border-radius: 50px;
+
+    width: 295px;
+    height: 90px;
+
+    color: #FCFBFB;
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 60px;
+
+    transition: all 1s;
+}
+
+.btn-agendar-servico:hover, .btn-expand-servico:hover {
+    background-color: transparent;
+
+    color: #B47766;
+
+    border: 1px solid #B47766;
+}
+
+@keyframes pular {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(5px);
+    }
+}

@@ -1,0 +1,233 @@
+import '../style/beneficios.css'
+import '../style/responsive/beneficios-responsive.css'
+
+const Beneficios = () => {
+
+  function viewCards() { 
+    const cardsGradient = document.querySelector('.cards-beneficios')
+    const button = document.getElementById('btn-expand-benefico')
+
+    cardsGradient.classList.toggle('cards-gradiente-beneficios')
+
+    if (!cardsGradient.classList.contains('cards-gradiente-beneficios')) {
+        return button.textContent = 'Ver Menos!'
+    } else {
+        button.textContent = 'Ver Mais!'
+    }
+}
+
+  return (
+    <>
+      <div id='beneficios' className="bg-image-beneficio">
+        
+        <div className="titulo-beneficios">
+          <h1 className="titulo-beneficios-1">BENEFÍCIOS</h1>
+          <h2 className="titulo-beneficios-2">BENEFICIOS DA MASSOTERAPIA</h2>
+        </div>
+
+        <ul className="cards-beneficios cards-gradiente-beneficios">
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Redução do Estresse e Ansiedade
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Nossas técnicas de massoterapia promovem o relaxamento profundo, ajudando a aliviar o estresse e a ansiedade acumulados. Experimente a paz e a tranquilidade que só uma boa massagem pode proporcionar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Alívio de Dores Musculares e Crônicas
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Com técnicas especializadas, como massagem terapêutica e shiatsu, você pode encontrar alívio eficaz para dores musculares e crônicas. Nossos terapeutas são treinados para identificar e tratar pontos de tensão, proporcionando um alívio duradouro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Melhora da Circulação Sanguínea e Linfática
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Tratamentos como drenagem linfática e reflexologia podal estimulam a circulação sanguínea e linfática, ajudando na eliminação de toxinas e na redução do inchaço, promovendo uma sensação de leveza e bem-estar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Rejuvenescimento e Saúde da Pele
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Nossos tratamentos faciais, incluindo limpeza de pele e microagulhamento, revitalizam e rejuvenescem a pele, melhorando sua textura e aparência. Desfrute de uma pele mais saudável e radiante.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Equilíbrio Energético e Mental
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Terapias energéticas como Reiki e Barras de Access ajudam a equilibrar a energia do corpo, reduzindo o estresse mental e emocional. Sinta-se renovado e em paz com você mesmo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Melhora do Desempenho Físico
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Para os atletas, a massagem desportiva é essencial para prevenir lesões, melhorar o desempenho e acelerar a recuperação pós-treino. Mantenha-se no seu melhor com nossos tratamentos especializados.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Melhora do Desempenho Físico
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    Para os atletas, a massagem desportiva é essencial para prevenir lesões, melhorar o desempenho e acelerar a recuperação pós-treino. Mantenha-se no seu melhor com nossos tratamentos especializados.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li className="card-beneficio">
+            <div className='logo-titulo-descricao-beneficio'>
+              <div className='logo-moke-spa-bg-div-beneficio'>
+                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              </div>
+
+              <div className='titulo-beneficio-massagem'>
+                <h1 className='titulo-card-beneficio'>
+                  Promoção do Bem-Estar Geral
+                </h1>
+
+                <div className="descricao-beneficio">
+                  <p>
+                    A massagem ayurvédica e o ThetaHealing oferecem abordagens holísticas para equilibrar corpo e mente, promovendo a saúde e o bem-estar geral. Encontre harmonia e vitalidade em cada sessão.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <button id='btn-expand-benefico' onClick={() => {viewCards()}} className='btn-expand-benefico'>Ver Mais!</button>
+        
+      </div>
+
+      <div className="porque-escolher">
+        <h1 className='titulo-porque'>
+          Por que Escolher Nosso Spa & Massoterapia
+        </h1>
+
+        <ul className='motivos-porque'>
+          <li>
+            <p className='motivo'>
+              <span className='titulo-motivo'>Terapeutas Especializados:</span> Nossa equipe é altamente qualificada e dedicada a proporcionar a melhor experiência de massoterapia.
+            </p>
+          </li>
+
+          <li className='motivo'>
+            <span className='titulo-motivo'>Ambiente Tranquilo:</span> Desfrute de um ambiente sereno e relaxante, projetado para sua máxima comodidade.
+          </li>
+
+          <li className='motivo'>
+            <span className='titulo-motivo'>Tratamentos Personalizados:</span> Cada sessão é adaptada às suas necessidades específicas, garantindo resultados eficazes e satisfatórios.
+          </li>
+        </ul>
+      </div>
+
+      <div className='text-btn-beneficio'>
+        <p className='text-beneficio'>
+          Agende sua sessão hoje e descubra como a massoterapia pode transformar sua vida!
+        </p>
+
+        <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+          <button className='btn-agende-sessao'>
+            Agende sua Sessão!
+          </button>
+        </a>
+      </div>
+    </>
+  )
+}
+
+export default Beneficios

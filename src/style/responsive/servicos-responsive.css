@@ -1,0 +1,37 @@
+@media (min-width: 320px) and (max-width: 743px) {
+    .titulos-cards {
+        margin-top: 55px;
+    }
+    
+    .titulo-servicos {
+        margin-bottom: 100px;
+    }
+    
+    .titulo-servico-1 {
+        font-size: 24px;
+    }
+    
+    .titulo-servico-2 {
+        font-size: 15px;
+    }
+    
+    
+    .card {    
+        width: 243px;
+        height: 344px;
+    }
+
+    .btn-expand-servico {    
+        width: 117px;
+        height: 44px;
+
+        font-size: 16px;
+    }
+    
+    .btn-agendar-servico {
+        width: 185px;
+        height: 56px;
+    
+        font-size: 16px;
+    }
+}

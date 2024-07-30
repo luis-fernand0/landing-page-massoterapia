@@ -1,0 +1,140 @@
+.bg-b47766 {
+    background-color: #B47766;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.image-lines {
+    background: url('.././public/images/lines.png') no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.img-alessandra {
+    width: 650px;
+    height: 630px;
+
+    rotate: 10.12deg;
+
+    border-radius: 150px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+}
+
+.descricoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 100px;
+
+    max-width: 645px;
+    min-width: 645px;
+    
+    color: #FCFBFB;
+    
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 25%);
+}
+
+.titulo-1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.titulos-descricao {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.titulo-2 {
+    font-weight: 900;
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.descricao {
+    max-width: 453px;
+
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo-3, .titulo-4 {
+    width: 100%;
+
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.titulo-4 {
+    margin: 20px 0 50px 0;
+
+    font-size: 20px;
+}
+
+.btns-cta-whats {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cta {
+    width: 293px;
+    height: 89px;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #BC9084;
+
+    background-color: #FCFBFB;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    transition: ease-in-out 0.8s;
+}
+
+.btn-cta:hover {
+    background-color: transparent;
+
+    color: #FCFBFB;
+
+    border:1px solid #FCFBFB;
+}
+
+.btn-whatsapp {
+    width: 85px;
+    height: 85px;
+
+    cursor: pointer;
+
+    transition: all 0.7s;
+}
+
+.btn-whatsapp:hover {
+    transform: scale(0.90);
+}

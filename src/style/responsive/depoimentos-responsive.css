@@ -1,0 +1,70 @@
+@media (min-width: 744px) and (max-width: 1024px) {
+    .depoimentos-container {
+        height: 100%;
+
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .depoimento-container:nth-last-child(n+2) {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 743px) {    
+    .titulo-depoimentos {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .depoimentos-container {
+        margin-top: 60px;
+
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .depoimento-container {
+        width: 260px;
+        height: 500px;
+
+        margin-bottom: 60px;
+    }
+    
+    .foto-name {
+        width: 168px;
+
+        justify-content: unset;
+    }
+    
+    .name {    
+        width: 30px;
+        height: 30px;
+
+        margin-right: 10px;
+    }
+    
+    .depoimento {
+        height: 100%;
+
+        align-items: center;
+    }
+    
+    .div-text-depoimento {
+        text-align: left;
+        
+        max-width: 168px;
+    }
+    
+    .text-depoimento {
+        text-align:left;
+        font-size: 16px;
+    
+        max-width: 168px;
+    }   
+
+    .btn-agende-beneficio {    
+        margin-top: calc(100px - 60px);
+    }
+}

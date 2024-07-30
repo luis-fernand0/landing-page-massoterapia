@@ -1,0 +1,133 @@
+@media (min-width: 744px) and (max-width: 1024px) {
+    .cards-beneficios {
+        justify-content: space-evenly;
+    }
+    
+    .card-beneficio {    
+        width: 314px;
+        height: auto;
+    }
+
+    .cards-gradiente-beneficios::before {
+        width: 100%;
+    }
+
+    .titulo-beneficio-massagem {
+        height: 336px;
+
+        justify-content: space-evenly;
+    
+        padding: 0 37px 0 37px;
+    }
+
+    .titulo-card-beneficio {
+        font-size: 20px;
+    }
+    
+    .descricao-beneficio {
+        font-size: 18px;
+    }
+    
+    .titulo-porque {
+        text-align: center;
+        
+        width: 400px;
+    }
+    
+    .motivo {
+        text-align: center;
+
+        max-width: 710px;
+    }
+    
+    .text-btn-beneficio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-top: 80px;
+    }
+    
+    .text-beneficio {
+        width: 610px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 743px) {        
+    .titulo-beneficios-1 {
+        font-size: 24px;
+
+        margin-bottom: 20px;
+    }
+    
+    .titulo-beneficios-2 {
+        font-size: 20px;
+    }
+    
+    .cards-beneficios {
+        width: 243px;
+    }
+    
+    .card-beneficio {
+        height: 344px;
+    }
+    
+    .titulo-beneficio-massagem {   
+        padding: 0px 37px 0px 37px;
+    }
+
+    .cards-gradiente-beneficios::before {    
+        width: 243px;
+    }
+    
+    
+    .btn-expand-benefico {    
+        width: 117px;
+        height: 44px;
+    
+        font-size: 16px;
+    }
+    
+    .porque-escolher {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-top: 110px;
+    }
+    
+    .titulo-porque {    
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .motivos-porque {
+        max-width: 205px;
+
+        text-align: center;
+    }
+    
+    .motivo {
+        font-size: 20px;
+    }
+    
+    .text-btn-beneficio {    
+        margin-top: 60px;
+    }
+    
+    .text-beneficio {
+        margin-bottom: 65px;
+    
+        max-width: 240px;
+    
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .btn-agende-sessao {
+        width: 185px;
+        height: 56px;
+
+        font-size: 16px;
+    }
+}

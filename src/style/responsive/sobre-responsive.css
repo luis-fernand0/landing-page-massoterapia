@@ -1,0 +1,51 @@
+@media (min-width: 744px) and (max-width: 1024px) {
+    .mission-vision-valores {
+        margin-top: 100px;
+        
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .valores {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 743px) {
+    .sobre {
+        padding-top: 55px;
+
+        height: 100%;
+    }
+    
+    .sobre-titulo {
+        font-size: 24px;
+    }
+    
+    .mission-vision-valores {
+        margin-top: 80px;
+
+        height: 100%;
+    }
+    
+    .sobre-descricao {
+        max-width: 222px;
+    
+        margin-bottom: 55px;
+    }
+    
+    .descricao-titulo {
+        font-size: 20px;
+    }
+    
+    .descricao-mvv {
+        font-size: 16px;
+    }
+    
+    .valores {
+        margin-top: 0px;
+    }
+}

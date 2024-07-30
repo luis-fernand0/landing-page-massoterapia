@@ -1,0 +1,220 @@
+.bg-image-beneficio {
+    background: url('.././public/images/img-massage-1.png') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-beneficios {
+    margin-top: 110px;
+
+    text-align: center;
+    color: #FCFBFB;
+}
+
+.titulo-beneficios-1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.titulo-beneficios-2 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.cards-beneficios {
+    max-width: 942px;
+
+    margin-top: 135px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.cards-gradiente-beneficios {
+    height: 798px;
+    
+    overflow: hidden;
+}
+
+.cards-gradiente-beneficios::before {
+    content: '';
+
+    background: linear-gradient(transparent, #BC9084);
+    
+    position: absolute;
+
+    width: 942px;
+    height: 798px;
+}
+
+.card-beneficio {
+    background-color: #B47766;
+
+    width: 426px;
+    height: 309px;
+
+    margin-bottom: 60px;
+
+    border-radius: 50px;
+}
+
+.logo-titulo-descricao-beneficio {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    z-index: 0;
+}
+
+.titulo-beneficio-massagem {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-align: center;
+    color: #FCFBFB;
+
+    padding: 45px 37px 54px 37px;
+}
+
+.titulo-card-beneficio {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao-beneficio {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.logo-moke-spa-bg-div-beneficio {
+    width: 100%;
+    height: 100%; 
+    
+    position: absolute;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-moke-spa-bg-beneficio {
+    width: 200px;
+    height: 200px;
+
+    opacity: 10%;
+}
+
+.btn-expand-benefico {
+    background-color: #B47766;
+
+    border: none;
+    border-radius: 50px;
+
+    width: 150px;
+    height: 60px;
+
+    color: #FCFBFB;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 50px 0 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: pular 1s infinite alternate ease-in-out;
+    transition: all 1s;
+
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 25%);
+}
+
+.btn-expand-benefico:hover {
+    background-color: transparent;
+
+    border: 1px solid #FCFBFB;
+}
+
+.porque-escolher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 110px;
+}
+
+.titulo-porque {
+    margin-bottom: 60px;
+
+    font-size: 32px;
+    font-weight: 600;
+    color: #BC9084;
+}
+
+.motivos-porque {
+    max-width: 947px;
+}
+
+.titulo-motivo {
+    font-weight: 500;
+}
+
+.motivo {
+    font-size: 32px;
+    font-weight: 200;
+    color: #BC9084;
+
+    margin-bottom: 50px;
+}
+
+.text-btn-beneficio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+.text-beneficio {
+    margin-bottom: 110px;
+
+    max-width: 990px;
+
+    color: #BC9084;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.btn-agende-sessao {
+    background-color: #B47766;
+
+    border: none;
+    border-radius: 50px;
+
+    width: 295px;
+    height: 90px;
+
+    color: #FCFBFB;
+    font-size: 24px;
+    font-weight: 700;
+
+    transition: all 1s;
+}
+
+.btn-agende-sessao:hover {
+    background-color: transparent;
+
+    color: #B47766;
+
+    border: 1px solid #B47766;
+}

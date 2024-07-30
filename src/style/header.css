@@ -1,0 +1,127 @@
+.header {
+    background-color: #B47766;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 28px 0 100px;
+
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-moke-spa {
+    width: 100px;
+    height: 100px;
+}
+
+#menu {
+    display: none;
+}
+
+.nav-pages-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lista-nav {
+    margin-right: 105px;
+    
+    min-width: 260px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    right: 0;
+    z-index: 4;
+
+    background-color: #BC9084;
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+    text-align: center;
+
+    padding: 30px;
+}
+ .link-dropdown {
+    margin-top: 15px;
+ }
+
+.btn {
+    background-color: transparent;
+
+    border-color: transparent;
+
+    color: #FCFBFB;
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: all 0.7s;
+}
+
+.btn:hover {
+    border-bottom: 2px solid #FCFBFB;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 360px;
+}
+
+.rede-social {
+    background-color: #FCFBFB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 100%;
+}
+
+.rede-social-logo {
+    width: 50px;
+    height: 50px;
+
+    transition: all 0.7s;
+}
+
+.rede-social-logo:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,100 @@
+@media (min-width: 744px) and (max-width: 1024px){
+    .bg-b47766 {
+        height: 100%;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 110px;
+    }
+
+    .image-lines {
+        background: url('.././public/images/alessandra-passos.png') no-repeat;
+        background-size: cover;
+
+        height: 630px;
+    }
+
+    .img-alessandra {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 743px) {
+    .bg-b47766 {
+        height: 100%;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 110px;
+    }
+
+    .image-lines {
+        background: url('.././public/images/alessandra-passos.png') no-repeat;
+        background-size: cover;
+
+        height: 220px;
+    }
+
+    .img-alessandra {
+        display: none;
+    }
+
+    .descricoes {
+        margin-top: 60px;
+        min-width: 256px;
+    }
+
+    .titulo-1 {
+        font-size: 20px;
+    }
+    
+    .titulos-descricao {
+        margin-top: 35px;
+    }
+    
+    .titulo-2 {
+        font-size: 13px;
+
+        margin-bottom: 5px;
+    }
+
+    .descricao {
+        max-width: 256px;
+    
+        margin-bottom: 26px;
+    
+        font-size: 14px;
+    }
+    
+    .titulo-3, .titulo-4 {
+        width: 100%;
+    
+        font-size: 12px;
+    }
+    
+    .titulo-4 {
+        margin: 20px 0 50px 0;
+    
+        font-size: 13px;
+    }
+
+    .btns-cta-whats {    
+        flex-direction: column;
+    }
+
+    .btn-cta {
+        width: 185px;
+        height: 56px;
+
+        font-size: 16px;
+
+        margin-bottom: 30px;
+    }
+
+    .btn-whatsapp {
+        width: 58px;
+        height: 58px;
+    }
+}
