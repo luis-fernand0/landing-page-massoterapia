@@ -6,6 +6,8 @@ const Header = () => {
     function toggleMenu () {
         const nav = document.querySelector(".nav-pages-redes-sociais")
         nav.classList.toggle('active')
+        const hamburguer = document.querySelector(".menu-hamburger")
+        hamburguer.classList.toggle('active')
     }
 
   return (
@@ -15,7 +17,9 @@ const Header = () => {
             <img className='logo-moke-spa' src=".././public/images/moke-spa-logo.png" alt="logo-moke-spa" />
         </div>
         
-        <button onClick={() => {toggleMenu()}} id='menu' type="button">Menu</button>
+        <button onClick={() => {toggleMenu()}} className='menu-hamburger' id='menu' type="button">
+            <span className='hamburguer'></span>
+        </button>
 
         <nav className='nav-pages-redes-sociais'>
 

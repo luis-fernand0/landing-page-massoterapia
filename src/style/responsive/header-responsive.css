@@ -1,7 +1,49 @@
 /*TABLET*/
 @media (min-width: 744px) and (max-width: 1024px) {
     #menu {
+        display: flex;
+
+        background: none;
+
+        border: none;
+        
+        color: #FCFBFB;
+    }
+    
+    .hamburguer {
+        width: 30px;
+        
+        border-top: 2px solid;
+    }
+    
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        
         display: block;
+        
+        background-color: currentColor;
+        
+        width: 30px;
+        height: 2px;
+        
+        margin-top: 5px;
+        
+        transition: .3s;
+
+        position: relative;
+    }
+    
+    .menu-hamburger.active .hamburguer {
+        border-top-color: transparent;
+    }
+
+    .menu-hamburger.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .menu-hamburger.active .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
     .nav-pages-redes-sociais {
@@ -66,7 +108,49 @@
     }
 
     #menu {
+        display: flex;
+
+        background: none;
+
+        border: none;
+        
+        color: #FCFBFB;
+    }
+    
+    .hamburguer {
+        width: 30px;
+        
+        border-top: 2px solid;
+    }
+    
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        
         display: block;
+        
+        background-color: currentColor;
+        
+        width: 30px;
+        height: 2px;
+        
+        margin-top: 5px;
+        
+        transition: .3s;
+
+        position: relative;
+    }
+    
+    .menu-hamburger.active .hamburguer {
+        border-top-color: transparent;
+    }
+
+    .menu-hamburger.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .menu-hamburger.active .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
     .nav-pages-redes-sociais {
