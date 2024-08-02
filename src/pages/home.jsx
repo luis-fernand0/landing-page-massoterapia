@@ -1,10 +1,12 @@
 import '../style/home.css'
 import '../style/responsive/home-responsive.css'
+import Animation from '../animation'
 
 const Home = () => {
+
   return (
     <>
-      <div id='home' className='bg-b47766'>
+      <div id='home' className='bg-b47766 hidden first-one'>
         <div className="image-lines">
           <img className="img-alessandra" src=".././public/images/alessandra-passos.png" alt="alessandra-passos" />
         </div>

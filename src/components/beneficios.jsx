@@ -14,7 +14,7 @@ const Beneficios = () => {
     } else {
         button.textContent = 'Ver Mais!'
     }
-}
+  }
 
   return (
     <>
