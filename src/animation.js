@@ -1,7 +1,5 @@
-function Animation() {
-    const firstOne = document.querySelector('.first-one')
-    
-    const myObserve = new IntersectionObserver((entries)=> {
+function Animation(firstOne) {
+    const myObserve = new IntersectionObserver((entries) => {
         console.log(entries)
     })
 

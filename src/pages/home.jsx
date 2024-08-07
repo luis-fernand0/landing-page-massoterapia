@@ -1,8 +1,14 @@
 import '../style/home.css'
 import '../style/responsive/home-responsive.css'
 import Animation from '../animation'
+import { useEffect } from 'react'
 
 const Home = () => {
+    
+  useEffect(() => {
+    const firstOne = document.querySelector('.first-one')
+    Animation(firstOne)
+  }, [])
 
   return (
     <>
