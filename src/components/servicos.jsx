@@ -1,6 +1,11 @@
 import '../style/servicos.css'
 import '../style/responsive/servicos-responsive.css'
 
+import '../style/animation.css'
+import Animation from '../animation'
+
+import { useEffect } from 'react'
+
 const Servicos = () => {
     
     function viewCards() { 
@@ -16,16 +21,21 @@ const Servicos = () => {
         }
     }
 
+    useEffect(() => {
+        const show = document.querySelectorAll('.hidden')
+        Animation(show)
+      }, [])
+
   return (
     <>
       <div id='servicos' className='titulos-cards'>
 
-        <div className="titulo-servicos">
+        <div className="titulo-servicos hidden">
             <h1 className='titulo-servico titulo-servico-1'>NOSSOS SERVIÇOS</h1>
             <h2 className='titulo-servico titulo-servico-2'>QUAL O TIPO IDEAL DE MASSAGEM PARA VOCÊ?</h2>
         </div>
 
-        <ul className="cards cards-gradiente">
+        <ul className="cards cards-gradiente hidden">
             <li className="card">
                 <div className='logo-titulo-descricao'>
                     <div className='logo-moke-spa-bg-div'>
@@ -358,12 +368,12 @@ const Servicos = () => {
         </ul>
 
         <div className='btns-agendar-expand'>
-            <button id='btn-expand-servico' onClick={() => {viewCards()}} className='btn-expand-servico'>
+            <button id='btn-expand-servico' onClick={() => {viewCards()}} className='btn-expand-servico hidden'>
                 Ver Mais!
             </button>
 
             <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
-                <button className='btn-agendar-servico'>
+                <button className='btn-agendar-servico hidden'>
                     Agende sua Sessão!
                 </button>
             </a>

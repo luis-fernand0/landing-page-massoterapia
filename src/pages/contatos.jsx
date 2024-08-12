@@ -1,11 +1,22 @@
 import '../style/contatos.css'
 import '../style/responsive/contatos-responsive.css'
 
+import '../style/animation.css'
+import Animation from '../animation'
+
+import { useEffect } from 'react'
+
 const Contatos = () => {
+
+  useEffect(() => {
+    const show = document.querySelectorAll('.hidden')
+    Animation(show)
+  }, [])
+
   return (
     <>
       <div className="contatos-container">
-        <div className="side-bar">
+        <div className="side-bar hidden">
           <div className='titulos-side-bar'>
             <div className='titulo-1-2-side-bar'>
               <h2 className="titulo-side-bar titulo-1-side-bar">
@@ -32,9 +43,9 @@ const Contatos = () => {
         </div>
 
         <form className='form' action="">
-          <h1 className="titulo-contatos">FORMAS DE CONTATOS</h1>
+          <h1 className="titulo-contatos hidden">FORMAS DE CONTATOS</h1>
 
-          <div className='select-inputs'>
+          <div className='select-inputs hidden'>
             <label className="label-input">
               <span  className="text-label">
                 NOME
@@ -127,7 +138,7 @@ const Contatos = () => {
             </label>
           </div>
 
-          <div className='btns-contatos'>
+          <div className='btns-contatos hidden'>
             <button className='btn-cta' type="button">Enviar</button>
 
             <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>  
@@ -139,7 +150,7 @@ const Contatos = () => {
             </a>
           </div>
 
-          <div className='endereco-tel'>
+          <div className='endereco-tel hidden'>
             <div className='endereco'>
               <p className='endereco-text'>
                 Endereço:

@@ -1,13 +1,24 @@
 import '../style/sobre.css'
 import '../style/responsive/sobre-responsive.css'
 
+import '../style/animation.css'
+import Animation from '../animation'
+
+import { useEffect } from 'react'
+
 const Sobre = () => {
+
+  useEffect(() => {
+    const show = document.querySelectorAll('.hidden')
+    Animation(show)
+  }, [])
+
   return (
     <>
       <div className="sobre">
-        <h1 className="sobre-titulo">SOBRE NÓS</h1>
+        <h1 className="sobre-titulo hidden">SOBRE NÓS</h1>
 
-        <div className='mission-vision-valores'>
+        <div className='mission-vision-valores hidden'>
 
           <div className="sobre-descricao misson">
             <h2 className="descricao-titulo misson-titulo">

@@ -1,6 +1,9 @@
 import '../style/home.css'
 import '../style/responsive/home-responsive.css'
+
+import '../style/animation.css'
 import Animation from '../animation'
+
 import { useEffect } from 'react'
 
 const Home = () => {

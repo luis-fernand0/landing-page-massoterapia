@@ -1,15 +1,26 @@
 import "../style/depoimentos.css"
 import "../style/responsive/depoimentos-responsive.css"
 
+import '../style/animation.css'
+import Animation from '../animation'
+
+import { useEffect } from 'react'
+
 const Depoimentos = () => {
+
+    useEffect(() => {
+        const show = document.querySelectorAll('.hidden')
+        Animation(show)
+    }, [])
+
     return (
         <>
             <div id="depoimentos" className="depoimentos">
-                <h1 className="titulo-depoimentos">NOSSOS CLIENTES</h1>
+                <h1 className="titulo-depoimentos hidden">NOSSOS CLIENTES</h1>
 
                 <div>
                     <ul className="depoimentos-container">
-                        <li className="depoimento-container">
+                        <li className="depoimento-container hidden">
                             <div className="depoimento">
 
                                 <div className="foto-name">
@@ -25,7 +36,7 @@ const Depoimentos = () => {
                             </div>
                         </li>
 
-                        <li className="depoimento-container">
+                        <li className="depoimento-container hidden">
                             <div className="depoimento">
 
                                 <div className="foto-name">
@@ -41,7 +52,7 @@ const Depoimentos = () => {
                             </div>
                         </li>
 
-                        <li className="depoimento-container">
+                        <li className="depoimento-container hidden">
                             <div className="depoimento">
 
                                 <div className="foto-name">
@@ -62,7 +73,7 @@ const Depoimentos = () => {
 
                 <div className="btn-agende-beneficio ">
                     <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
-                        <button className='btn-agende-sessao'>Agende sua Sessão!</button>
+                        <button className='btn-agende-sessao hidden'>Agende sua Sessão!</button>
                     </a>
                 </div>
             </div>
