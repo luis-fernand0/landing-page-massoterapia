@@ -1,7 +1,7 @@
-.contatos-container {
+#contatos {
     background-color: #B47766;
 
-    height: 100vh;
+    min-height: 940px;
 
     display: flex;
     flex-flow: row nowrap;
@@ -19,17 +19,15 @@
 }
 
 .titulos-side-bar {
-    min-height: 40%;
+    height: 50%;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .titulo-1-2-side-bar {
     text-align: center;
-
-    padding-top: 60px;
 }
 
 .titulo-side-bar {

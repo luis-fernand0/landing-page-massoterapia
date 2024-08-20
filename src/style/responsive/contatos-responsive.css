@@ -1,5 +1,5 @@
 @media (min-width: 744px) and (max-width: 1024px) {
-    .contatos-container {
+    #contatos {
         flex-flow: column;
 
         height: 100%;
@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 743px) {
-    .contatos-container {
+    #contatos {
         flex-flow: column;
 
         height: 100%;

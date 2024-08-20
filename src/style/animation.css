@@ -1,6 +1,6 @@
 .hidden {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(5%);
     filter: blur(5px);
     transition: all 1s;
 }
