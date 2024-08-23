@@ -14,7 +14,7 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='logo'>
-            <img className='logo-moke-spa' src=".././public/images/moke-spa-logo.png" alt="logo-moke-spa" />
+            <img className='logo' src=".././public/images/img-logo.png" alt="logo" />
         </div>
         
         <button onClick={() => {toggleMenu()}} className='menu-hamburger' id='menu' type="button">
@@ -76,31 +76,31 @@ const Header = () => {
                 <ul className='redes-sociais'>
 
                     <li className='li-rede-social'>
-                        <a className='rede-social' href="https://www.instagram.com/mokespa_rj/" target='_blank'>
+                        <a className='rede-social' href="https://www.instagram.com/" target='_blank'>
                             <img className='rede-social-logo' src=".././public/images/instagram.png" alt="logo-instagram" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
-                        <a className='rede-social' href="https://www.facebook.com/people/Almassoterapy/100091770477724/" target='_blank'>
+                        <a className='rede-social' href="https://www.facebook.com/" target='_blank'>
                             <img className='rede-social-logo' src=".././public/images/facebook.png" alt="logo-facebbok" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
-                        <a className='rede-social' href="https://www.tiktok.com/@mokespa_rj" target='_blank'>
+                        <a className='rede-social' href="https://www.tiktok.com/" target='_blank'>
                             <img className='rede-social-logo' src=".././public/images/tiktok.png" alt="logo-tiktok" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
-                        <a className='rede-social' href="https://www.youtube.com/@MokeRJSpaMassoterapia" target='_blank'>
+                        <a className='rede-social' href="https://www.youtube.com/" target='_blank'>
                             <img className='rede-social-logo' src=".././public/images/youtube.png" alt="logo-youtube" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
-                        <a className='rede-social' href="https://www.linkedin.com/in/alessandra-moke-spa-e-massoterapia-0b31b630a/" target='_blank'>
+                        <a className='rede-social' href="https://www.linkedin.com/in/" target='_blank'>
                             <img className='rede-social-logo' src=".././public/images/linkedin.png" alt="logo-linkedin" />
                         </a>
                     </li>

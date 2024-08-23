@@ -39,8 +39,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -59,8 +59,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -79,8 +79,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -99,8 +99,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -119,8 +119,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -139,8 +139,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -159,8 +159,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -179,8 +179,8 @@ const Beneficios = () => {
 
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
-              <div className='logo-moke-spa-bg-div-beneficio'>
-                <img className='logo-moke-spa-bg-beneficio' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+              <div className='logo-bg-div-beneficio'>
+                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -230,7 +230,7 @@ const Beneficios = () => {
           Agende sua sessão hoje e descubra como a massoterapia pode transformar sua vida!
         </p>
 
-        <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+        <a href="" target='_blank'>
           <button className='btn-agende-sessao hidden'>
             Agende sua Sessão!
           </button>

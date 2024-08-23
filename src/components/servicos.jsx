@@ -38,8 +38,8 @@ const Servicos = () => {
         <ul className="cards cards-gradiente hidden">
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -60,8 +60,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -82,8 +82,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -104,8 +104,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -126,8 +126,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -148,8 +148,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -170,8 +170,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -192,8 +192,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -214,8 +214,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -236,8 +236,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -258,8 +258,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -280,8 +280,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -302,8 +302,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -324,8 +324,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -346,8 +346,8 @@ const Servicos = () => {
 
             <li className="card">
                 <div className='logo-titulo-descricao'>
-                    <div className='logo-moke-spa-bg-div'>
-                        <img className='logo-moke-spa-bg' src=".././public/images/logo-moke-spa-bg.png" alt="" />
+                    <div className='logo-bg-div'>
+                        <img className='logo-bg' src=".././public/images/logo-bg.png" alt="" />
                     </div>
 
                     <div className='titulo-descricao-massagem'>
@@ -372,7 +372,7 @@ const Servicos = () => {
                 Ver Mais!
             </button>
 
-            <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+            <a href="" target='_blank'>
                 <button className='btn-agendar-servico hidden'>
                     Agende sua Sessão!
                 </button>

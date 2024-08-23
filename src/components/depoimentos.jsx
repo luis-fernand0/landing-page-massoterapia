@@ -72,7 +72,7 @@ const Depoimentos = () => {
                 </div>
 
                 <div className="btn-agende-beneficio ">
-                    <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+                    <a href="" target='_blank'>
                         <button className='btn-agende-sessao hidden'>Agende sua Sessão!</button>
                     </a>
                 </div>

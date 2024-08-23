@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-.logo-moke-spa-bg-div {
+.logo-bg-div {
     position: absolute;
     z-index: 1;
 
@@ -45,7 +45,7 @@
     height: 100%;
 }
 
-.logo-moke-spa-bg {
+.logo-bg {
     width: 199px;
     
     opacity: 10%;    

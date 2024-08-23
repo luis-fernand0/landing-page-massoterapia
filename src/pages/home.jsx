@@ -17,14 +17,14 @@ const Home = () => {
     <>
       <div id='home' className='bg-b47766'>
         <div className="image-lines">
-          <img className="img-alessandra" src=".././public/images/alessandra-passos.png" alt="alessandra-passos" />
+          <img className="img-home" src=".././public/images/img-home.png" alt="imagem-home" />
         </div>
 
         <div className="descricoes">
           <h1 className='titulo-home titulo-1 hidden'>
             MASSOTERAPIA
             <br/> 
-            ALESSANDRA PASSOS
+            NOME DA EMPRESA
           </h1>
 
           <div className="titulos-descricao">
@@ -44,11 +44,11 @@ const Home = () => {
             </h3>
 
             <div className='btns-cta-whats hidden'>
-              <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+              <a href="" target='_blank'>
                 <button className='btn-cta'>Agende sua sessão!</button>
               </a>
 
-              <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+              <a href="" target='_blank'>
                 <img className='btn-whatsapp' src=".././public/images/whatsapp.png" alt="whatsapp-logo" />
               </a>
             </div>

@@ -9,13 +9,13 @@
     }
 
     .image-lines {
-        background: url('.././public/images/alessandra-passos.png') no-repeat;
+        background: url('.././public/images/img-home.png') no-repeat;
         background-size: cover;
 
         height: 630px;
     }
 
-    .img-alessandra {
+    .img-home {
         display: none;
     }
 }
@@ -31,13 +31,13 @@
     }
 
     .image-lines {
-        background: url('.././public/images/alessandra-passos.png') no-repeat;
+        background: url('.././public/images/img-home.png') no-repeat;
         background-size: cover;
 
         height: 220px;
     }
 
-    .img-alessandra {
+    .img-home {
         display: none;
     }
 

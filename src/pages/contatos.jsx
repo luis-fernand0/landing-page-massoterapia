@@ -19,11 +19,11 @@ const Contatos = () => {
         <div className='titulos-side-bar'>
           <div className='titulo-1-2-side-bar'>
             <h2 className="titulo-side-bar titulo-1-side-bar">
-              Moke  Massagens no Rio de Janeiro
+              Algo do seu interesse
             </h2>
 
             <h2 className="titulo-side-bar titulo-2-side-bar">
-              Alessandra Passos
+              Nome da Empresa
               <br />
               <span className="titulo-side-bar titulo-3-side-bar">
                 Massoterapeuta
@@ -140,11 +140,11 @@ const Contatos = () => {
         <div className='btns-contatos hidden'>
           <button className='btn-cta' type="button">Enviar</button>
 
-          <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>  
+          <a href="" target='_blank'>  
             <button className='btn-cta' type='button'>Agende sua sessão!</button>
           </a>
 
-          <a href="https://wa.me//5521973890284/?text=Teste" target='_blank'>
+          <a href="" target='_blank'>
               <img className='btn-whatsapp' src=".././public/images/whatsapp.png" alt="whatsapp-logo" />
           </a>
         </div>
@@ -155,7 +155,7 @@ const Contatos = () => {
               Endereço:
               <br />
               <span className='text-endereco-tel'>
-                Av Rio Branco, 131 - Sala 1803, Centro, Rio de Janeiro - RJ
+                SEU ENDEREÇO
               </span>
             </p>
           </div>
@@ -165,7 +165,7 @@ const Contatos = () => {
               Telefone:
               <br />
               <span className='text-endereco-tel'>
-                +55 21 97389-0284
+                SEU TELEFONE
               </span>
             </p>
           </div>
