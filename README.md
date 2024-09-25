@@ -16,6 +16,12 @@ Este é o repositório de um projeto meu e... Podemos dizer que um quase trabalh
 
 ### O projeto
 
+Essa landing page foi feita para um Spa de Massoterapia. Landing page totalmente responsiva para todos os tipos de dispositivos com desing unico e original criado por mim mesmo.
+O usuario deve ser capaz de: 
+- Interagir com varios elementos da tela
+- Pode ser redirecionado para alguma rede social da empresa dependendo do em qual botão é clicado 
+- Com apenas um clique é capaz de agendar uma sessão via Whatsapp
+- Pode ser preenchido um formulario para ser feito o agendamento da sessão via Whatsapp ou Email
 
 ### Captura de tela
 
@@ -34,83 +40,58 @@ Este é o repositório de um projeto meu e... Podemos dizer que um quase trabalh
 
 ### Tecnologias Utilizadas
 
-- React: Utilizei o framework React para construir a interface do usuário, garantindo uma experiência dinâmica e responsiva.
-
-- React Router: Utilizei o React Router para gerenciar as rotas da aplicação, possibilitando a navegação entre diferentes páginas de forma suave.
-
-- React Hooks: Uma característica do React que permite usar state e effect entre outros recursos do React em componentes de função, simplificando o código e facilitando o compartilhamento de lógica entre componentes.
-
-- API do The Movie Database (TMDb): Esta API fornece acesso a uma vasta coleção de informações sobre filmes, incluindo detalhes, imagens e trailers.
-
-- CSS: Utilizei CSS puro para estilizar a aplicação e garantir uma experiência visualmente atraente e coesa. Assim como Flexbox e Grid, mesclando os dois para fazer um layout dinamico
+- React e React Hooks: Utilizei o framework React e sua biblioteca React Hooks para construir uma interface para o usuário leve e rapida.
 
 - Metodos, exportamento e importamneto de funções e componentes em JavaScript e React para a interação
-
-- Uso do arquivo .env para armazenar variaveis de ambiente
-
-- Manipulação do DOM
 
 
 ### O que eu aprendi
 
-Aperfeçoei bastante minhas habilidades em JavaScript e cada vez que estudo mais afundo sobre essa linguagem eu me surpreendo mais com quão diversificada ela é, outro ponto que aperfeiçoei seria meus conhecimentos em APIs, como tudo funciona, requisições HTTP como: FECHT, POST, GET, como ler as documentações não só de APIs mas também de bibliotecas e da propria linguagem em sí, oque é e para que serve o arquivo .env para seu projeto. Por ultimo e não menos importante, REACT, acho que oque eu mais aprendi nisso tudo foi sobre React. Esse é meu primeiro projeto usando React então tudo é muito novo para mim, tive que quebrar bastante a cabeça para entender como cada coisa funciona, o porque essa coisa é assim, tive que ler bastante a documentação e ver bastante videos sobre oque é o React e quais suas funcionalidades, suas caracteristicas e sua sintaxe.
+APRENDI CAMINHAR COM AS PROPRIAS PERNAS! Por se tratar de um trabalho freelancer foi solicitado algo unico, então tudo foi criado por mim, tive certos desafios como por exemplo o gradiente que é feito nos cards que pode ser visto nas seções de Serviços e Beneficios ou até mesmo a animação ao rolar a tela, tecnicas de UI/UX, tecnicas de marketing... Responsividade, ler documentações, pesquisar e resolver problemas sozinho e versionamento Git.
+
+- ANIMAÇÃO DE AO ROLAR A TELA FOI FEITA POR MEIO DE UMA API INTERNA DO JS CHAMADA "Intersection Obrserver"
+https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+
+```js
+function Animation(elementos) {
+    const myObserve = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show')
+            } else {
+                entry.target.classList.remove('show')
+            }
+        });
+    })
+
+    elementos.forEach((element) => {
+        myObserve.observe(element)
+    });
+}
+
+export default  Animation  
+```
+- A IMPORTAÇÃO DESSA FUNÇÃO É FEITA EM TODAS AS PAGINAS QUE EU QUERO COLOCAR A ANIMAÇÃO, EXEMPLO: *A IMPORTÇÃO FOI FEITA NA PAGINA HOME*
 
 ```jsx
-import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import '../style/animation.css'
+import Animation from '../animation'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faClock } from '@fortawesome/free-solid-svg-icons'
+import { useEffect } from 'react'
 
-import '../css/movie_cards/movie_card.css'
-import '../css/responsive/movie_card_responsive.css'
-
-const urlMovies = import.meta.env.VITE_API
-const apiKey = import.meta.env.VITE_API_KEY
-const apiImg = import.meta.env.VITE_IMG
-
-const Movie = () => {
-
-  const { id } = useParams()
-  const [filme, setFilme] = useState()
-  const [streaming, setStreaming] = useState()
-  const [credits, setCredits] = useState()
-
-  async function Filme() {
-    const url = `${urlMovies}${id}?${apiKey}&language=pt-BR&append_to_response=videos,images`
-    const response = await fetch(url)
-    const data = await response.json()
-
-    setFilme(data)
-  }
-
-  async function Streaming() {
-    const url = `${urlMovies}${id}/watch/providers?${apiKey}`
-    const response = await fetch(url)
-    const data = await response.json()
-
-    setStreaming(data.results.BR)
-  }
-
-  async function Credits() {
-    const url = `${urlMovies}${id}/credits?${apiKey}`
-    const response = await fetch(url)
-    const data = await response.json()
-
-    setCredits(data)
-  }
-
+const Home = () => {
+    
   useEffect(() => {
-    Filme()
-    Streaming()
-    Credits()
+    const show = document.querySelectorAll('.hidden')
+    Animation(show)
   }, [])
 
-  
+  return...
 ```
+
 ## NOTA:
 
-- Futuramente vou estar mexendo neste projeto de novo e vou dar umas atualizadas nele, como por exemplo da uma simplifica e organizar melhor o codigo, adicionar novas funcionalidades como: não ficar restrito somente em filmes e mostrar também series, filtro se no caso usuario so queira pesquisar series, expandir para outros idiomas e melhorar o layout
+- NOTA: Como se trata de um trabalho freelancer eu decide manter em anonimo para qual empresa foi feito o projeto já que ele não chegou de fato ser finalizado faltando ser finalizado apenas o envio do formulario que ao fazer o envio ele vai para lugar nenhum e a seção Sobre e Depoimentos... Como cliente desistiu quase no fim do projeto ficou faltando apenas esse final, quem sabe mais para frente eu finalizo essa parte
 
 ## Autor
 
