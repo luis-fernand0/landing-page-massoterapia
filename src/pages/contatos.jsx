@@ -2,7 +2,7 @@ import '../style/contatos.css'
 import '../style/responsive/contatos-responsive.css'
 
 import '../style/animation.css'
-import Animation from '../animation'
+import Animation from '../animation.js'
 
 import { useEffect } from 'react'
 

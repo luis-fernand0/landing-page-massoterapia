@@ -2,7 +2,7 @@ import '../style/sobre.css'
 import '../style/responsive/sobre-responsive.css'
 
 import '../style/animation.css'
-import Animation from '../animation'
+import Animation from '../animation.js'
 
 import { useEffect } from 'react'
 

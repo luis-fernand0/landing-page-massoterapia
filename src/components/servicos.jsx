@@ -2,7 +2,7 @@ import '../style/servicos.css'
 import '../style/responsive/servicos-responsive.css'
 
 import '../style/animation.css'
-import Animation from '../animation'
+import Animation from '../animation.js'
 
 import { useEffect } from 'react'
 

@@ -2,7 +2,7 @@ import "../style/depoimentos.css"
 import "../style/responsive/depoimentos-responsive.css"
 
 import '../style/animation.css'
-import Animation from '../animation'
+import Animation from '../animation.js'
 
 import { useEffect } from 'react'
 

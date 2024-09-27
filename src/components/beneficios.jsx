@@ -2,7 +2,7 @@ import '../style/beneficios.css'
 import '../style/responsive/beneficios-responsive.css'
 
 import '../style/animation.css'
-import Animation from '../animation'
+import Animation from '../animation.js'
 
 import { useEffect } from 'react'
 
