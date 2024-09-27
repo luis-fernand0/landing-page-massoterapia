@@ -1,10 +1,10 @@
-import Header from './components/header'
-import Home from './pages/home'
-import Servicos from './components/servicos'
-import Beneficios from './components/beneficios'
-import Sobre from './pages/sobre'
-import Depoimentos from './components/depoimentos'
-import Contatos from './pages/contatos'
+import Header from './components/header.jsx'
+import Home from './pages/home.jsx'
+import Servicos from './components/servicos.jsx'
+import Beneficios from './components/beneficios.jsx'
+import Sobre from './pages/sobre.jsx'
+import Depoimentos from './components/depoimentos.jsx'
+import Contatos from './pages/contatos.jsx'
 
 import './App.css'
 
