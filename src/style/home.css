@@ -10,7 +10,7 @@
 }
 
 .image-lines {
-    background: url('.././public/images/lines.png') no-repeat;
+    background: url('/images/lines.png') no-repeat;
     background-size: cover;
 
     display: flex;

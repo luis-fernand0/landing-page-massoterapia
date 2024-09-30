@@ -8,7 +8,7 @@
 }
 
 .side-bar {
-    background: url('.././public/images/lines.png') center no-repeat;
+    background: url('/images/lines.png') center no-repeat;
     background-size: cover;
 
     max-width: 400px;

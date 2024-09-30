@@ -9,7 +9,7 @@
     }
 
     .image-lines {
-        background: url('.././public/images/img-home.png') no-repeat;
+        background: url('/images/img-home.png') no-repeat;
         background-size: cover;
 
         height: 630px;
@@ -31,7 +31,7 @@
     }
 
     .image-lines {
-        background: url('.././public/images/img-home.png') no-repeat;
+        background: url('/images/img-home.png') no-repeat;
         background-size: cover;
 
         height: 220px;

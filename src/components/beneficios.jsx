@@ -40,7 +40,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -60,7 +60,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -80,7 +80,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -100,7 +100,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -120,7 +120,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -140,7 +140,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -160,7 +160,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>
@@ -180,7 +180,7 @@ const Beneficios = () => {
           <li className="card-beneficio">
             <div className='logo-titulo-descricao-beneficio'>
               <div className='logo-bg-div-beneficio'>
-                <img className='logo-bg-beneficio' src=".././public/images/logo-bg.png" alt="" />
+                <img className='logo-bg-beneficio' src="/images/logo-bg.png" alt="" />
               </div>
 
               <div className='titulo-beneficio-massagem'>

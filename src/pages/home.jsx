@@ -49,7 +49,7 @@ const Home = () => {
               </a>
 
               <a href="" target='_blank'>
-                <img className='btn-whatsapp' src=".././public/images/whatsapp.png" alt="whatsapp-logo" />
+                <img className='btn-whatsapp' src="/images/whatsapp.png" alt="whatsapp-logo" />
               </a>
             </div>
           </div>

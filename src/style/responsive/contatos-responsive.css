@@ -6,7 +6,7 @@
     }
 
     .side-bar {
-        background: url('.././public/images/img-massage-2.png') center no-repeat;
+        background: url('/images/img-massage-2.png') center no-repeat;
         background-size: cover;
         background-attachment: fixed;
 
@@ -67,7 +67,7 @@
     }
 
     .side-bar {
-        background: url('.././public/images/img-massage-2.png') center no-repeat;
+        background: url('/images/img-massage-2.png') center no-repeat;
         background-size: cover;
         background-attachment: fixed;
 

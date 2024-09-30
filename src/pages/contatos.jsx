@@ -37,7 +37,7 @@ const Contatos = () => {
         </div>
 
         <div className='div-img-massage'>
-          <img className="img-side-bar" src=".././public/images/img-massage-2.png" alt="" />
+          <img className="img-side-bar" src="/images/img-massage-2.png" alt="" />
         </div>
       </div>
 
@@ -145,7 +145,7 @@ const Contatos = () => {
           </a>
 
           <a href="" target='_blank'>
-              <img className='btn-whatsapp' src=".././public/images/whatsapp.png" alt="whatsapp-logo" />
+              <img className='btn-whatsapp' src="/images/whatsapp.png" alt="whatsapp-logo" />
           </a>
         </div>
 

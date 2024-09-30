@@ -14,7 +14,7 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='logo'>
-            <img className='logo' src=".././public/images/img-logo.png" alt="logo" />
+            <img className='logo' src="/images/img-logo.png" alt="logo" />
         </div>
         
         <button onClick={() => {toggleMenu()}} className='menu-hamburger' id='menu' type="button">
@@ -77,31 +77,31 @@ const Header = () => {
 
                     <li className='li-rede-social'>
                         <a className='rede-social' href="https://www.instagram.com/" target='_blank'>
-                            <img className='rede-social-logo' src=".././public/images/instagram.png" alt="logo-instagram" />
+                            <img className='rede-social-logo' src="/images/instagram.png" alt="logo-instagram" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
                         <a className='rede-social' href="https://www.facebook.com/" target='_blank'>
-                            <img className='rede-social-logo' src=".././public/images/facebook.png" alt="logo-facebbok" />
+                            <img className='rede-social-logo' src="/images/facebook.png" alt="logo-facebbok" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
                         <a className='rede-social' href="https://www.tiktok.com/" target='_blank'>
-                            <img className='rede-social-logo' src=".././public/images/tiktok.png" alt="logo-tiktok" />
+                            <img className='rede-social-logo' src="/images/tiktok.png" alt="logo-tiktok" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
                         <a className='rede-social' href="https://www.youtube.com/" target='_blank'>
-                            <img className='rede-social-logo' src=".././public/images/youtube.png" alt="logo-youtube" />
+                            <img className='rede-social-logo' src="/images/youtube.png" alt="logo-youtube" />
                         </a>
                     </li>
 
                     <li className='li-rede-social'>
                         <a className='rede-social' href="https://www.linkedin.com/in/" target='_blank'>
-                            <img className='rede-social-logo' src=".././public/images/linkedin.png" alt="logo-linkedin" />
+                            <img className='rede-social-logo' src="/images/linkedin.png" alt="logo-linkedin" />
                         </a>
                     </li>
                 </ul>
