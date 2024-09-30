@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <div id='home' className='bg-b47766'>
         <div className="image-lines">
-          <img className="img-home" src="../../public/images/img-home.png" alt="imagem-home" />
+          <img className="img-home" src="/images/img-home.png" alt="imagem-home" />
         </div>
 
         <div className="descricoes">
